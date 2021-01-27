@@ -1,5 +1,5 @@
-execute as @a[nbt={Inventory:[{Slot:-106b,tag:{redbyuldime:1b}}]}] run function redbyul:offhandcoincount
-execute as @a[nbt={Inventory:[{Slot:-106b,tag:{redbyuldollar:1b}}]}] run function redbyul:offhanddollarcount
+execute at @a[predicate=redbyul:offhand_coin] run function redbyul:offhandcoincount
+execute at @a[predicate=redbyul:offhand_dollar] run function redbyul:offhanddollarcount
 
 
 schedule function redbyul:byulbittcurrency 100t

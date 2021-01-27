@@ -1,0 +1,13 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type": "minecraft:player",
+    "equipment": {
+      "offhand": {
+        "item": "minecraft:gold_nugget",
+        "nbt": "{display:{Name:'{\"text\":\"별빛달러\",\"color\":\"#31C445\",\"bold\":true}'},CustomModelData:523002,redbyuldollar:1b}"
+      }
+    }
+  }
+}

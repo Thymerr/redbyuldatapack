@@ -1,0 +1,13 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "type": "minecraft:player",
+      "equipment": {
+        "offhand": {
+          "item": "minecraft:iron_nugget",
+          "nbt": "{display:{Name:'{\"text\":\"별빛다임\",\"color\":\"#A9C7C9\",\"bold\":true}'},CustomModelData:523001,redbyuldime:1b}"
+        }
+      }
+    }
+  }
